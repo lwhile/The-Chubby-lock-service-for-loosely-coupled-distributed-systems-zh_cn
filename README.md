@@ -38,4 +38,4 @@ Google论文《The Chubby lock service for loosely coupled distributed systems�
 
 
  
-[中文文档入口.md](./zh_cn.md)
+[中文文档入口](./zh_cn.md)
