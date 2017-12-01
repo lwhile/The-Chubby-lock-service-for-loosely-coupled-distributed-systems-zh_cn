@@ -7,7 +7,7 @@ Google论文《The Chubby lock service for loosely coupled distributed systems�
 
 ## 一起翻译
 
-欢迎有精力的同学参加翻译，我个人也是利用下班后的业余时间进行翻译的，进度无法做到太快。愿意参加翻译的话可以从下面的列表选择一个没有完成或者没有被挑选的章节进行翻译，然后在这个[issue](https://github.com/lwhile/The-Chubby-lock-service-for-loosely-coupled-distributed-systems-zh_cn/issues/2)下面留言，最后提PR.
+欢迎有精力的同学参加翻译，我个人也是利用下班后的业余时间进行翻译的，进度无法做到太快。愿意参加翻译的话可以从下面的列表选择一个没有完成或者没有被挑选的章节进行翻译，然后在这个[issue](https://github.com/lwhile/The-Chubby-lock-service-for-loosely-coupled-distributed-systems-zh_cn/issues/2)下面留言，翻译完成后提PR.
 
 - [x] Abstract
 - [x] 1.Introduction
