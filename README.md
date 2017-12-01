@@ -37,5 +37,5 @@ Google论文《The Chubby lock service for loosely coupled distributed systems�
 - [ ] 7 Acknowledgments
 
 
- 
+[论文原文](./chubby-osdi06.pdf)
 [中文文档入口](./zh_cn.md)
