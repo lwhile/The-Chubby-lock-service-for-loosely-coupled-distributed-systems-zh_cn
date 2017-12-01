@@ -11,7 +11,7 @@ Google论文《The Chubby lock service for loosely coupled distributed systems�
 
 - [x] Abstract
 - [x] 1.Introduction
-- [ ] 2.1 Rationate
+- [x] 2.1 Rationate (@lwhile)
 - [ ] 2.2 System structure
 - [ ] 2.3 Files,Directories,and handles
 - [ ] 2.4 Locks and sequencers
