@@ -39,3 +39,6 @@ the name service)【这个翻译不出来，不知道怎么表达。可不可以
 ###2.1 基本原理
 有一种观点认为我们应该建立一个基于Paxos算法的library而不是建立一个基于访问集中锁服务的library。即使后者高度可靠。假设程序员的服务能作为状态机实现，一个Paxos library的客户端would depend on no other servers (besides
 the name service)【这个翻译不出来，不知道怎么表达。可不可以翻译成：不会依赖其他的服务器。那个括号里面的真不知道什么意思】，并且会提供一个标准的框架给程序员。确实，我们提供了一个是独立于Chubby之外的client 库
+
+尽管如此，在客户端库锁服务有些优势。首先，我们开发者有时候不打算做与高效性相悖的事情。通常他们的系统以一个little load和loose availability guarantees的原型开始。基于一致性协议使用起来代码都不约而同的没有良好的结构。随着服务日趋成熟并且获取更多客户（gains clients），有效、可用性变得更加重要。复制和初选然后添加到现有的设计（replication and primary election are then added to an existing design）。当这些被封装成库提供了分布式共识（distributed consensus）的时候，一个锁服务器让它变得更简单去维护现存的程序架构和通信模式。举个例子，
+to elect a master which then writes to an existing file server requires adding just two statements and one RPC parameter to an existing system: One would acquire a lock to become master, pass an additional integer (the lock acquisition count) with the write RPC, and add an if-statement to the file server to reject the write if the acquisition count is lower than the current value (to guard against delayed packets).我们发现这技巧比making现有的服务器在一致性协议下participate要简单，并且特别是在transition period（灰度？）时保持兼容性的时候。
