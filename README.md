@@ -14,7 +14,7 @@ Google论文《The Chubby lock service for loosely coupled distributed systems�
 - [x] 2.1 Rationate ([@lwhile](https://github.com/lwhile)，[@shArpyYAo](https://github.com/shArpyYAo))
 - [x] 2.2 System structure ([@lwhile](https://github.com/lwhile)，[@shArpyYAo](https://github.com/shArpyYAo))
 - [x] 2.3 Files,Directories,and handles ([@lwhile](https://github.com/lwhile))
-- [ ] 2.4 Locks and sequencers
+- [x] 2.4 Locks and sequencers
 - [ ] 2.5 Events
 - [ ] 2.6 API
 - [ ] 2.7 Caching 
