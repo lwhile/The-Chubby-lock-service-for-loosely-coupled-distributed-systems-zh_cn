@@ -11,8 +11,8 @@ Google论文《The Chubby lock service for loosely coupled distributed systems�
 
 ## 总体进度
 
-- [ ]翻译完成
-- [ ]优化 
+- [ ] 翻译完成
+- [ ] 优化 
 
 ## 各章节进度
 
