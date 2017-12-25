@@ -24,7 +24,7 @@ Google论文《The Chubby lock service for loosely coupled distributed systems�
 - [x] 2.4 Locks and sequencers ([@lwhile](https://github.com/lwhile))
 - [x] 2.5 Events ([@lwhile](https://github.com/lwhile))
 - [x] 2.6 API ([@lwhile](https://github.com/lwhile))
-- [ ] 2.7 Caching 
+- [ ] 2.7 Caching ([@lwhile](https://github.com/lwhile))
 - [ ] 2.8 Sessions and KeepAlives
 - [ ] 2.9 Fail-overs
 - [ ] 2.10 Database implementation
